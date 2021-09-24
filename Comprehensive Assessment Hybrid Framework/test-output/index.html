@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Lakshay\eclipse-workspace\Comprehensive Assessment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">10 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EProject.ValidateTitle" class="method navigator-link" hash-for-method="ValidateTitle">ValidateTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EProject.ValidateCart" class="method navigator-link" hash-for-method="ValidateCart">ValidateCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EProject.ValidateChangeInPrice" class="method navigator-link" hash-for-method="ValidateChangeInPrice">ValidateChangeInPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EProject.ValidateDeliveryDate" class="method navigator-link" hash-for-method="ValidateDeliveryDate">ValidateDeliveryDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EProject.ValidateDropdown" class="method navigator-link" hash-for-method="ValidateDropdown">ValidateDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EProject.ValidateNav" class="method navigator-link" hash-for-method="ValidateNav">ValidateNav</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EProject.ValidateOrder" class="method navigator-link" hash-for-method="ValidateOrderTracking">ValidateOrderTracking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EProject.ValidateSofaSearch" class="method navigator-link" hash-for-method="ValidateSofa">ValidateSofa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EProject.ValidateSubscription" class="method navigator-link" hash-for-method="ValidateSubscription">ValidateSubscription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Academy.E2EProject.ValidateWarranty" class="method navigator-link" hash-for-method="ValidateWarranty">ValidateWarranty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Academy.E2EProject.ValidateTitle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateTitle">
+                  </a> <!-- ValidateTitle -->
+                  <span class="method-name">ValidateTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at Academy.E2EProject.ValidateTitle.ValidateTitle(ValidateTitle.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EProject.ValidateSubscription</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateSubscription">
+                  </a> <!-- ValidateSubscription -->
+                  <span class="method-name">ValidateSubscription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EProject.ValidateSofaSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateSofa">
+                  </a> <!-- ValidateSofa -->
+                  <span class="method-name">ValidateSofa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EProject.ValidateWarranty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateWarranty">
+                  </a> <!-- ValidateWarranty -->
+                  <span class="method-name">ValidateWarranty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EProject.ValidateDropdown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateDropdown">
+                  </a> <!-- ValidateDropdown -->
+                  <span class="method-name">ValidateDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EProject.ValidateNav</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateNav">
+                  </a> <!-- ValidateNav -->
+                  <span class="method-name">ValidateNav</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EProject.ValidateChangeInPrice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateChangeInPrice">
+                  </a> <!-- ValidateChangeInPrice -->
+                  <span class="method-name">ValidateChangeInPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EProject.ValidateDeliveryDate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateDeliveryDate">
+                  </a> <!-- ValidateDeliveryDate -->
+                  <span class="method-name">ValidateDeliveryDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EProject.ValidateCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateCart">
+                  </a> <!-- ValidateCart -->
+                  <span class="method-name">ValidateCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EProject.ValidateOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateOrderTracking">
+                  </a> <!-- ValidateOrderTracking -->
+                  <span class="method-name">ValidateOrderTracking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Lakshay\eclipse-workspace\Comprehensive Assessment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Academy.E2EProject.listeners&quot;/&gt;
+    &lt;listener class-name=&quot;Academy.E2EProject.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestNav&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EProject.ValidateNav&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNav --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCart&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EProject.ValidateCart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCart --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestChangeInPrice&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EProject.ValidateChangeInPrice&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestChangeInPrice --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestDeliveryDate&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EProject.ValidateDeliveryDate&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestDeliveryDate --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestDropdown&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EProject.ValidateDropdown&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestDropdown --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestOrder&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EProject.ValidateOrder&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestOrder --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestSofaSearch&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EProject.ValidateSofaSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestSofaSearch --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestSubscription&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EProject.ValidateSubscription&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestSubscription --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestWarranty&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EProject.ValidateWarranty&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestWarranty --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestTitle&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EProject.ValidateTitle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestTitle --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestNav (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCart (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestChangeInPrice (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestDeliveryDate (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestDropdown (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestOrder (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestSofaSearch (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestSubscription (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestWarranty (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestTitle (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ValidateCart')
+data.setCell(0, 2, 'Academy.E2EProject.ValidateCart')
+data.setCell(0, 3, 11767);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidateWarranty')
+data.setCell(1, 2, 'Academy.E2EProject.ValidateWarranty')
+data.setCell(1, 3, 10541);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ValidateChangeInPrice')
+data.setCell(2, 2, 'Academy.E2EProject.ValidateChangeInPrice')
+data.setCell(2, 3, 9794);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ValidateDeliveryDate')
+data.setCell(3, 2, 'Academy.E2EProject.ValidateDeliveryDate')
+data.setCell(3, 3, 9533);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ValidateDropdown')
+data.setCell(4, 2, 'Academy.E2EProject.ValidateDropdown')
+data.setCell(4, 3, 4208);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateSubscription')
+data.setCell(5, 2, 'Academy.E2EProject.ValidateSubscription')
+data.setCell(5, 3, 2205);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ValidateNav')
+data.setCell(6, 2, 'Academy.E2EProject.ValidateNav')
+data.setCell(6, 3, 2142);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ValidateSofa')
+data.setCell(7, 2, 'Academy.E2EProject.ValidateSofaSearch')
+data.setCell(7, 3, 2112);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ValidateOrderTracking')
+data.setCell(8, 2, 'Academy.E2EProject.ValidateOrder')
+data.setCell(8, 3, 1931);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ValidateTitle')
+data.setCell(9, 2, 'Academy.E2EProject.ValidateTitle')
+data.setCell(9, 3, 17);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.ValidateNav</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ValidateNav</span>
+                <span class="method-start">3301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">at</span>
+                <span class="method-start">5447 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.ValidateCart</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
+                <span class="method-start">5629 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ValidateCart</span>
+                <span class="method-start">9063 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">at</span>
+                <span class="method-start">20831 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.ValidateChangeInPrice</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
+                <span class="method-start">20994 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ValidateChangeInPrice</span>
+                <span class="method-start">23947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">at</span>
+                <span class="method-start">33742 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.ValidateDeliveryDate</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
+                <span class="method-start">33957 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ValidateDeliveryDate</span>
+                <span class="method-start">37029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">at</span>
+                <span class="method-start">46563 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.ValidateDropdown</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
+                <span class="method-start">46844 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ValidateDropdown</span>
+                <span class="method-start">49762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">at</span>
+                <span class="method-start">53971 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.ValidateOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
+                <span class="method-start">58119 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ValidateOrderTracking</span>
+                <span class="method-start">60821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">at</span>
+                <span class="method-start">62753 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.ValidateSofaSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
+                <span class="method-start">63018 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ValidateSofa</span>
+                <span class="method-start">65995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">at</span>
+                <span class="method-start">68108 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.ValidateSubscription</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
+                <span class="method-start">68172 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ValidateSubscription</span>
+                <span class="method-start">71424 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">at</span>
+                <span class="method-start">73630 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.ValidateWarranty</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
+                <span class="method-start">77796 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ValidateWarranty</span>
+                <span class="method-start">80616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">at</span>
+                <span class="method-start">91158 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.ValidateTitle</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">bt</span>
+                <span class="method-start">91343 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidateTitle</span>
+                <span class="method-start">94311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">at</span>
+                <span class="method-start">95432 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

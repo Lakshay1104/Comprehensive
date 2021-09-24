@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-24T20:07:06 IST" name="Suite" finished-at="2021-09-24T20:08:41 IST" duration-ms="95662">
+    <groups>
+    </groups>
+    <test started-at="2021-09-24T20:07:06 IST" name="TestNav" finished-at="2021-09-24T20:07:11 IST" duration-ms="5602">
+      <class name="Academy.E2EProject.ValidateNav">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Academy.E2EProject.ValidateNav@79351f41]" started-at="2021-09-24T20:07:06 IST" name="bt" finished-at="2021-09-24T20:07:09 IST" duration-ms="3265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="ValidateNav()[pri:0, instance:Academy.E2EProject.ValidateNav@79351f41]" started-at="2021-09-24T20:07:09 IST" name="ValidateNav" finished-at="2021-09-24T20:07:11 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNav -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Academy.E2EProject.ValidateNav@79351f41]" started-at="2021-09-24T20:07:11 IST" name="at" finished-at="2021-09-24T20:07:11 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Academy.E2EProject.ValidateNav -->
+    </test> <!-- TestNav -->
+    <test started-at="2021-09-24T20:07:11 IST" name="TestCart" finished-at="2021-09-24T20:07:27 IST" duration-ms="15360">
+      <class name="Academy.E2EProject.ValidateCart">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Academy.E2EProject.ValidateCart@59d2400d]" started-at="2021-09-24T20:07:11 IST" name="bt" finished-at="2021-09-24T20:07:15 IST" duration-ms="3434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="ValidateCart()[pri:0, instance:Academy.E2EProject.ValidateCart@59d2400d]" started-at="2021-09-24T20:07:15 IST" name="ValidateCart" finished-at="2021-09-24T20:07:27 IST" duration-ms="11767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCart -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Academy.E2EProject.ValidateCart@59d2400d]" started-at="2021-09-24T20:07:27 IST" name="at" finished-at="2021-09-24T20:07:27 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Academy.E2EProject.ValidateCart -->
+    </test> <!-- TestCart -->
+    <test started-at="2021-09-24T20:07:27 IST" name="TestChangeInPrice" finished-at="2021-09-24T20:07:40 IST" duration-ms="12958">
+      <class name="Academy.E2EProject.ValidateChangeInPrice">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Academy.E2EProject.ValidateChangeInPrice@6ee660fb]" started-at="2021-09-24T20:07:27 IST" name="bt" finished-at="2021-09-24T20:07:30 IST" duration-ms="2952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="ValidateChangeInPrice()[pri:0, instance:Academy.E2EProject.ValidateChangeInPrice@6ee660fb]" started-at="2021-09-24T20:07:30 IST" name="ValidateChangeInPrice" finished-at="2021-09-24T20:07:40 IST" duration-ms="9794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateChangeInPrice -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Academy.E2EProject.ValidateChangeInPrice@6ee660fb]" started-at="2021-09-24T20:07:40 IST" name="at" finished-at="2021-09-24T20:07:40 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Academy.E2EProject.ValidateChangeInPrice -->
+    </test> <!-- TestChangeInPrice -->
+    <test started-at="2021-09-24T20:07:40 IST" name="TestDeliveryDate" finished-at="2021-09-24T20:07:53 IST" duration-ms="12884">
+      <class name="Academy.E2EProject.ValidateDeliveryDate">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Academy.E2EProject.ValidateDeliveryDate@22ffa91a]" started-at="2021-09-24T20:07:40 IST" name="bt" finished-at="2021-09-24T20:07:43 IST" duration-ms="3071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="ValidateDeliveryDate()[pri:0, instance:Academy.E2EProject.ValidateDeliveryDate@22ffa91a]" started-at="2021-09-24T20:07:43 IST" name="ValidateDeliveryDate" finished-at="2021-09-24T20:07:52 IST" duration-ms="9533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDeliveryDate -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Academy.E2EProject.ValidateDeliveryDate@22ffa91a]" started-at="2021-09-24T20:07:52 IST" name="at" finished-at="2021-09-24T20:07:53 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Academy.E2EProject.ValidateDeliveryDate -->
+    </test> <!-- TestDeliveryDate -->
+    <test started-at="2021-09-24T20:07:53 IST" name="TestDropdown" finished-at="2021-09-24T20:08:04 IST" duration-ms="11271">
+      <class name="Academy.E2EProject.ValidateDropdown">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Academy.E2EProject.ValidateDropdown@447a020]" started-at="2021-09-24T20:07:53 IST" name="bt" finished-at="2021-09-24T20:07:56 IST" duration-ms="2918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="ValidateDropdown()[pri:0, instance:Academy.E2EProject.ValidateDropdown@447a020]" started-at="2021-09-24T20:07:56 IST" name="ValidateDropdown" finished-at="2021-09-24T20:08:00 IST" duration-ms="4208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDropdown -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Academy.E2EProject.ValidateDropdown@447a020]" started-at="2021-09-24T20:08:00 IST" name="at" finished-at="2021-09-24T20:08:04 IST" duration-ms="4144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Academy.E2EProject.ValidateDropdown -->
+    </test> <!-- TestDropdown -->
+    <test started-at="2021-09-24T20:08:04 IST" name="TestOrder" finished-at="2021-09-24T20:08:09 IST" duration-ms="4859">
+      <class name="Academy.E2EProject.ValidateOrder">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Academy.E2EProject.ValidateOrder@3a3e78f]" started-at="2021-09-24T20:08:04 IST" name="bt" finished-at="2021-09-24T20:08:07 IST" duration-ms="2701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="ValidateOrderTracking()[pri:0, instance:Academy.E2EProject.ValidateOrder@3a3e78f]" started-at="2021-09-24T20:08:07 IST" name="ValidateOrderTracking" finished-at="2021-09-24T20:08:09 IST" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateOrderTracking -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Academy.E2EProject.ValidateOrder@3a3e78f]" started-at="2021-09-24T20:08:09 IST" name="at" finished-at="2021-09-24T20:08:09 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Academy.E2EProject.ValidateOrder -->
+    </test> <!-- TestOrder -->
+    <test started-at="2021-09-24T20:08:09 IST" name="TestSofaSearch" finished-at="2021-09-24T20:08:14 IST" duration-ms="5146">
+      <class name="Academy.E2EProject.ValidateSofaSearch">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Academy.E2EProject.ValidateSofaSearch@340b9973]" started-at="2021-09-24T20:08:09 IST" name="bt" finished-at="2021-09-24T20:08:12 IST" duration-ms="2975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="ValidateSofa()[pri:0, instance:Academy.E2EProject.ValidateSofaSearch@340b9973]" started-at="2021-09-24T20:08:12 IST" name="ValidateSofa" finished-at="2021-09-24T20:08:14 IST" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSofa -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Academy.E2EProject.ValidateSofaSearch@340b9973]" started-at="2021-09-24T20:08:14 IST" name="at" finished-at="2021-09-24T20:08:14 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Academy.E2EProject.ValidateSofaSearch -->
+    </test> <!-- TestSofaSearch -->
+    <test started-at="2021-09-24T20:08:14 IST" name="TestSubscription" finished-at="2021-09-24T20:08:24 IST" duration-ms="9621">
+      <class name="Academy.E2EProject.ValidateSubscription">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Academy.E2EProject.ValidateSubscription@241e8ea6]" started-at="2021-09-24T20:08:14 IST" name="bt" finished-at="2021-09-24T20:08:17 IST" duration-ms="3252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="ValidateSubscription()[pri:0, instance:Academy.E2EProject.ValidateSubscription@241e8ea6]" started-at="2021-09-24T20:08:17 IST" name="ValidateSubscription" finished-at="2021-09-24T20:08:19 IST" duration-ms="2205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSubscription -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Academy.E2EProject.ValidateSubscription@241e8ea6]" started-at="2021-09-24T20:08:19 IST" name="at" finished-at="2021-09-24T20:08:24 IST" duration-ms="4161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Academy.E2EProject.ValidateSubscription -->
+    </test> <!-- TestSubscription -->
+    <test started-at="2021-09-24T20:08:24 IST" name="TestWarranty" finished-at="2021-09-24T20:08:37 IST" duration-ms="13544">
+      <class name="Academy.E2EProject.ValidateWarranty">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Academy.E2EProject.ValidateWarranty@3016fd5e]" started-at="2021-09-24T20:08:24 IST" name="bt" finished-at="2021-09-24T20:08:26 IST" duration-ms="2818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="ValidateWarranty()[pri:0, instance:Academy.E2EProject.ValidateWarranty@3016fd5e]" started-at="2021-09-24T20:08:26 IST" name="ValidateWarranty" finished-at="2021-09-24T20:08:37 IST" duration-ms="10541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateWarranty -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Academy.E2EProject.ValidateWarranty@3016fd5e]" started-at="2021-09-24T20:08:37 IST" name="at" finished-at="2021-09-24T20:08:37 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Academy.E2EProject.ValidateWarranty -->
+    </test> <!-- TestWarranty -->
+    <test started-at="2021-09-24T20:08:37 IST" name="TestTitle" finished-at="2021-09-24T20:08:41 IST" duration-ms="4315">
+      <class name="Academy.E2EProject.ValidateTitle">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Academy.E2EProject.ValidateTitle@42463763]" started-at="2021-09-24T20:08:37 IST" name="bt" finished-at="2021-09-24T20:08:40 IST" duration-ms="2967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="ValidateTitle()[pri:0, instance:Academy.E2EProject.ValidateTitle@42463763]" started-at="2021-09-24T20:08:40 IST" name="ValidateTitle" finished-at="2021-09-24T20:08:40 IST" duration-ms="17" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at Academy.E2EProject.ValidateTitle.ValidateTitle(ValidateTitle.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Academy.E2EProject.ValidateTitle@42463763]" started-at="2021-09-24T20:08:41 IST" name="at" finished-at="2021-09-24T20:08:41 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+    </test> <!-- TestTitle -->
+  </suite> <!-- Suite -->
+</testng-results>
