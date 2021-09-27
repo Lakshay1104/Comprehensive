@@ -55,9 +55,5 @@
       <class name="Academy.E2EProject.ValidateTitle"/>
     </classes>
   </test> 
-   <test thread-count="5" name="TestLogin">
-    <classes>
-      <class name="Academy.E2EProject.ValidateLogin"/>
-    </classes>
-  </test> 
+    
 </suite> 
